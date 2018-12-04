@@ -1,0 +1,379 @@
+QPushButton#fr{
+    /* background-color: rgb(61, 16, 16); */
+    background-color: rgb(71, 4, 4);
+   
+}
+QPushButton#duzen {
+    /* background-color: rgb(61, 16, 16); */
+    background-color: rgb(33, 34, 34);
+    border: none;
+    
+    
+    
+}
+
+QPushButton#duzen QRadioButton{
+    /* background-color: rgb(61, 16, 16); */
+    background-color: none;
+    border: none
+    
+    
+}
+QPushButton#duzen QLineEdit{
+    /* background-color: rgb(61, 16, 16); */
+    background-color: rgb(19, 18, 18);
+    border-radius: 2px;
+    padding: 5px;
+    color: rgb(206, 206, 206) 
+    
+    
+}
+QPushButton#duzen QLineEdit:focus{
+    /* background-color: rgb(61, 16, 16); */
+    
+    border: 2px solid rgb(9, 80, 121);
+    
+   
+}
+QPushButton#duzen QTextEdit{
+    /* background-color: rgb(61, 16, 16); */
+    background-color: rgb(19, 18, 18);
+    border-radius: 2px;
+    padding: 5px;
+    color: rgb(206, 206, 206) 
+}
+QPushButton#duzen QTextEdit:focus{
+    /* background-color: rgb(61, 16, 16); */
+    
+    border: 2px solid rgb(9, 80, 121);
+    
+   
+}
+
+
+QPushButton#fr:hover{
+    background-color: rgb(71, 4, 4);
+    border: 2px solid rgb(27, 1, 1);
+    
+}
+QPushButton#fr QPushButton{
+    background-color: rgb(19, 94, 107);
+    color: rgb(78, 2, 21);
+   
+    
+}
+QPushButton#fr QPushButton:hover{
+    background-color: rgb(107, 106, 19);
+    color: rgb(78, 2, 21);
+   
+    
+}
+QWidget{
+    background-color: #212222;
+    color:rgb(243, 243, 243)
+}
+QDialog QRadioButton{
+    border: none;
+}
+QDialog QLineEdit{
+    background-color: rgb(17, 17, 17);
+    color: #eeeeee
+}
+QDialog QTextEdit{
+    background-color: rgb(17, 17, 17);
+    color: #eeeeee
+}
+
+QLabel{
+    white-space: nowrap;
+}
+QLabel#anaMenu{
+    background-image: url("icon/home.png");
+    background-repeat: no-repeat;
+    font-size: 1px;
+    text-align: right;
+    color: rgb(236, 6, 18);
+    background-attachment: fixed;
+    background-position: center; 
+}
+QLabel#anaMenu:hover{
+    background-image: url("icon/home2.png");
+    background-repeat: no-repeat;
+    
+    
+    background-attachment: fixed;
+    background-position: center; 
+    
+}
+
+QLabel#metin_icerik{
+    margin: 15px;
+    padding: 15px 15px 15px 15px;
+    
+    text-align: center;
+    background-color: rgb(29, 29, 29);
+    font-size: 18px;
+    color: #b3b3b3
+    
+    
+    
+}
+
+QLabel#soru{
+    text-align: center;
+    background-color: rgb(29, 29, 29);
+    padding: 15 15 15 15;
+    color: yellow;
+    font-size: 15px;
+    white-space: nowrap;
+    
+
+}
+QScrollArea{
+    padding: 0;
+}
+
+#bar{
+    background-color: rgb(26, 25, 25);
+    padding: 3px;
+    
+}
+
+QStatusBar {
+    
+    margin: 0px;
+    border: 0px;
+    
+    
+ }
+
+
+QLabel#sonuc{
+    text-align: center;
+   
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(196, 26, 26)
+}
+QPushButton{
+    padding: 10px 15px 10px 15px;
+    background-color: rgb(9, 25, 44)
+}
+QRadioButton
+{
+    spacing: 5px;
+    outline: none;
+    color: #212222;
+    margin: 2px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+
+QRadioButton:disabled
+{
+    color: rgb(255, 255, 255);
+}
+QRadioButton::indicator
+{
+    width: 21px;
+    height: 21px;
+}
+
+QRadioButton::indicator:unchecked
+{
+    image: url("./rc/radio_unchecked.png");
+}
+
+
+QRadioButton::indicator:unchecked:hover,
+QRadioButton::indicator:unchecked:focus,
+QRadioButton::indicator:unchecked:pressed
+{
+
+
+    border: none;
+    outline: none;
+    
+    image: url("./rc/radio_unchecked_focus.png");
+    
+}
+
+QRadioButton::indicator:checked
+{
+    border: none;
+    outline: none;
+    image: url("./rc/radio_checked.png");
+    
+}
+
+QRadioButton::indicator:checked:hover,
+QRadioButton::indicator:checked:focus,
+QRadioButton::indicator:checked:pressed
+{
+    border: none;
+    outline: none;
+    image: url("./rc/radio_checked_focus.png");
+}
+
+QRadioButton::indicator:checked:disabled
+{
+    outline: none;
+    image: url("./rc/radio_checked_disabled.png");
+}
+
+QRadioButton::indicator:unchecked:disabled
+{
+    image: url("./rc/radio_unchecked_disabled.png");
+}
+
+
+
+
+
+QScrollBar:horizontal
+{
+    height: 15px;
+    margin: 3px 15px 3px 15px;
+    border: 1px transparent #2A2929;
+    border-radius: 4px;
+    background-color: #2A2929;
+}
+
+QScrollBar::handle:horizontal
+{
+    background-color: #605F5F;
+    min-width: 5px;
+    border-radius: 4px;
+}
+
+QScrollBar::add-line:horizontal
+{
+    margin: 0px 3px 0px 3px;
+    border-image: url("./rc/right_arrow_disabled.png");
+    width: 10px;
+    height: 10px;
+    subcontrol-position: right;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:horizontal
+{
+    margin: 0px 3px 0px 3px;
+    border-image: url("./rc/left_arrow_disabled.png");
+    height: 10px;
+    width: 10px;
+    subcontrol-position: left;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::add-line:horizontal:hover,QScrollBar::add-line:horizontal:on
+{
+    border-image: url("./rc/right_arrow.png");
+    height: 10px;
+    width: 10px;
+    subcontrol-position: right;
+    subcontrol-origin: margin;
+}
+
+
+QScrollBar::sub-line:horizontal:hover, QScrollBar::sub-line:horizontal:on
+{
+    border-image: url("./rc/left_arrow.png");
+    height: 10px;
+    width: 10px;
+    subcontrol-position: left;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::up-arrow:horizontal, QScrollBar::down-arrow:horizontal
+{
+    background: none;
+}
+
+
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal
+{
+    background: none;
+}
+
+QScrollBar:vertical
+{
+    background-color: #2A2929;
+    width: 15px;
+    margin: 15px 3px 15px 3px;
+    border: 1px transparent #2A2929;
+    border-radius: 4px;
+}
+
+QScrollBar::handle:vertical
+{
+    background-color: #605F5F;
+    min-height: 5px;
+    border-radius: 4px;
+}
+
+QScrollBar::sub-line:vertical
+{
+    margin: 3px 0px 3px 0px;
+    border-image: url("./rc/up_arrow_disabled.png");
+    height: 10px;
+    width: 10px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::add-line:vertical
+{
+    margin: 3px 0px 3px 0px;
+    border-image: url("./rc/down_arrow_disabled.png");
+    height: 10px;
+    width: 10px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:vertical:hover,QScrollBar::sub-line:vertical:on
+{
+
+    border-image: url("./rc/up_arrow.png");
+    height: 10px;
+    width: 10px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+
+
+QScrollBar::add-line:vertical:hover, QScrollBar::add-line:vertical:on
+{
+    border-image: url("./rc/down_arrow.png");
+    height: 10px;
+    width: 10px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical
+{
+    background: none;
+}
+
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical
+{
+    background: none;
+}
+
+QProgressBar {
+    border: 1px solid rgb(26, 26, 26);
+    border-radius: 5px;
+    text-align: center;
+}
+
+QProgressBar::chunk {
+    background-color: rgb(9, 25, 44);
+    
+} 
+

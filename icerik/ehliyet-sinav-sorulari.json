@@ -1,0 +1,38 @@
+{
+     "isim": "ehliyet-sinav-sorulari",
+     "sorular": [
+          {
+               "metin": "",
+               "soru": "A\u015fa\u011f\u0131dakilerden hangisi ilk yard\u0131mc\u0131da bulunmas\u0131 gereken \u00f6zelliklerdendir? ",
+               "siklar": [
+                    " A)Tela\u015fl\u0131 ve tedirgin olmas\u0131",
+                    " B)\u0130leti\u015fim becerilerinin zay\u0131f olmas\u0131",
+                    "C)\u00d6nce \u00e7evrenin g\u00fcvenli\u011fini sa\u011flamas\u0131",
+                    " D)\u0130nsan v\u00fccudu ile ilgili temel bilgilere sahip olmas\u0131"
+               ],
+               "dogruindex": "0"
+          },
+          {
+               "metin": "",
+               "soru": "Kazazedeye s\u00f6zl\u00fc uyaranla ya da hafif\u00e7e omzuna dokunarak \u201ciyi misiniz?\u201d diye sorularak - - - - de\u011ferlendirmesi yap\u0131l\u0131r. Yukar\u0131daki a\u00e7\u0131klamada bo\u015f b\u0131rak\u0131lan yere hangisi yaz\u0131lmal\u0131d\u0131r? ",
+               "siklar": [
+                    "A)dola\u015f\u0131m ",
+                    "B)bilin\u00e7 durumu",
+                    "C)solunum ",
+                    "D)hava yolu a\u00e7\u0131kl\u0131\u011f\u0131"
+               ],
+               "dogruindex": "0"
+          },
+          {
+               "metin": "I. El freninin \u00e7ekilmesi\nII. Konta\u011f\u0131n kapat\u0131lmas\u0131\nIII. LPG\u2019li ise arac\u0131n bagaj\u0131nda bulunan t\u00fcp\u00fcn vanas\u0131n\u0131n kapat\u0131lmas\u0131",
+               "soru": "Yukar\u0131dakilerden hangileri kazaya u\u011frayan ara\u00e7ta al\u0131nmas\u0131 gereken g\u00fcvenlik \u00f6nlemlerindendir",
+               "siklar": [
+                    " A)Yaln\u0131z I.",
+                    " B)I ve II.",
+                    " C)II ve III.",
+                    "D)I, II ve III."
+               ],
+               "dogruindex": "0"
+          }
+     ]
+}
